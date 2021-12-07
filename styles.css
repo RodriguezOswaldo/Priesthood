@@ -20,9 +20,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    padding-right: 30px;
     padding-top: 20px;
     box-shadow: 1px 1px 3px rgb(99, 91, 91);
+    padding-bottom: 20px;
+}
+.box1{
+    padding-right: 30px;
+
 }
 span{
     font-weight: bolder;
@@ -63,13 +67,21 @@ footer{
 footer a {
     text-decoration: none;
 }
-h2{
-    padding:20px;
+.head{
     background: #E1E289;
+    margin:0;
+    padding-top: 20px;
+    padding: 30px;
+    /* box-shadow: 2px 2px 3px rgb(78, 71, 71); */
+    margin-bottom: 20px;
+}
+h2{
+    /* padding:20px;
+   
     padding-right: 30px;
     margin: 20px;
-    margin-left:50px;
-    box-shadow: 2px 2px 3px rgb(78, 71, 71);
+    margin-left:50px; */
+    
     font-family: 'Playfair Display', serif;
     font-style: italic;
 
