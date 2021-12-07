@@ -6,17 +6,17 @@ var year = document.getElementById('year').innerHTML = n;
 
 
 const speechBox = [
-    { my_date: 'Oct 10', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/22bednar?lang=spa", title: "Con el poder de Dios en gran gloria", speaker: "David A. Bednar"},
-    { my_date: 'Oct 24', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/12holland?lang=spa", title: "La mayor posesión", speaker: "Elder Jeffrey R. Holland"},
-    { my_date: 'Nov 14', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/29stevenson?lang=eng", title: "Simplemente hermoso, hermosamente simple", speaker: "Elder Gary E. Stevenson"},
+    { my_date: 'Oct 10', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/22bednar?lang=spa", title: "Con el poder de Dios en gran gloria", speaker: "élder David A. Bednar"},
+    { my_date: 'Oct 24', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/12holland?lang=spa", title: "La mayor posesión", speaker: "élder Jeffrey R. Holland"},
+    { my_date: 'Nov 14', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/29stevenson?lang=eng", title: "Simplemente hermoso, hermosamente simple", speaker: "élder Gary E. Stevenson"},
     { my_date: 'Nov 28', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/31ballard?lang=spa", title: "“¿Me amas más que estos?”", speaker: "Presidente M. Russell Ballard"},
     { my_date: 'Dec 12', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/47nelson?lang=spa", title: "El templo y el cimiento espiritual de ustedes", speaker: "Presidente Russell M. Nelson"},
-    { my_date: 'Jan 09', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/42johnson?lang=spa", title: "Inviten a Cristo a ser el autor de su historia", speaker: "Presidenta Camille N. Johnson"},
+    { my_date: 'Jan 09', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/42johnson?lang=spa", title: "Inviten a Cristo a ser el autor de su historia", speaker: "hermana Camille N. Johnson"},
     { my_date: 'Jan 23', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=spa", title: "La paz personal en tiempos difíciles", speaker: "élder Quentin L. Cook"},    
     { my_date: 'Feb 13', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/58andersen?lang=spa", title: "El nombre de la Iglesia no es negociable", speaker: "élder Neil L. Andersen"},
-    { my_date: 'Feb 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=spa", title: "La fe para pedir y entonces actuar", speaker: "presidente Henry B. Eyring"},
+    { my_date: 'Feb 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=spa", title: "La fe para pedir y entonces actuar", speaker: "Presidente Henry B. Eyring"},
     { my_date: 'Mar 13', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=spa", title: "La dignidad no significa estar libre de mancha", speaker: "hermano Bradley R. Wilcox"},
-    { my_date: 'Mar 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=spa", title: "La necesidad de una Iglesia", speaker: "presidente Dallin H. Oaks"},
+    { my_date: 'Mar 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=spa", title: "La necesidad de una Iglesia", speaker: "Presidente Dallin H. Oaks"},
     { my_date: 'Apr 3', link: "https://www.churchofjesuschrist.org/?lang=spa", title: "Conferencia General", speaker: "Autoridades Generales" },
   ]
 
@@ -61,7 +61,6 @@ function onLoad(){
         let currentSpeaker = document.createElement("p");
         currentSpeaker.textContent = speechBox[4].speaker;
         currentSpeaker.setAttribute('class', 'italic')
-
         currentWeek.appendChild(currentSpeaker);
 }
 onLoad();
