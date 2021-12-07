@@ -44,27 +44,20 @@ function onLoad(){
         thirdNode.textContent = speaker;
         list.appendChild(thirdNode);    }
       //current date
-      var currentWeek = document.getElementById("currentWeek");
+        var currentWeek = document.getElementById("currentWeek");
 
-      var currentDate = document.createElement("h3");
-      currentWeek.appendChild(currentDate);
-      currentDate.textContent = speechBox[4].my_date;
+        var currentDate = document.createElement("h3");
+        currentWeek.appendChild(currentDate);
+        currentDate.textContent = speechBox[4].my_date;
 
-      let currentSpeech = document.createElement("a");
-      currentSpeech.setAttribute('href', speechBox[4].link);
-      currentSpeech.setAttribute('target', "_blank");
-      currentSpeech.textContent = " | "+ speechBox[4].title + "  | ";
-      currentWeek.appendChild(currentSpeech);
+        let currentSpeech = document.createElement("a");
+        currentSpeech.setAttribute('href', speechBox[4].link);
+        currentSpeech.setAttribute('target', "_blank");
+        currentSpeech.textContent = " | "+ speechBox[4].title + "  | ";
+        currentWeek.appendChild(currentSpeech);
 
-      let currentSpeaker = document.createElement("p");
-      currentSpeaker.textContent = speechBox[4].speaker;
-      currentWeek.appendChild(currentSpeaker);
-    //   list.appendChild(firstNode);
-
-    //   var secondNode = document.createElement("a");
-    //   secondNode.setAttribute('href', link);
-    //   secondNode.setAttribute('target', "_blank");
-    //   secondNode.textContent = " | "+ title + " | " + speaker;
-    //   list.appendChild(secondNode);
+        let currentSpeaker = document.createElement("p");
+        currentSpeaker.textContent = speechBox[4].speaker;
+        currentWeek.appendChild(currentSpeaker);
 }
 onLoad();
