@@ -17,7 +17,7 @@ const speechBox = [
     { my_date: 'Feb 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=spa", title: "La fe para pedir y entonces actuar", speaker: "presidente Henry B. Eyring"},
     { my_date: 'Mar 13', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=spa", title: "La dignidad no significa estar libre de mancha", speaker: "hermano Bradley R. Wilcox"},
     { my_date: 'Mar 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=spa", title: "La necesidad de una Iglesia", speaker: "presidente Dallin H. Oaks"},
-    { my_date: 'Apr 3', link: true, title: "Conferencia General", speaker: "Autoridades Generales" },
+    { my_date: 'Apr 3', link: "https://www.churchofjesuschrist.org/?lang=spa", title: "Conferencia General", speaker: "Autoridades Generales" },
   ]
 
 function onLoad(){
