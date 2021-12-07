@@ -24,9 +24,12 @@ body {
     box-shadow: 1px 1px 3px rgb(99, 91, 91);
     padding-bottom: 20px;
 }
-.box1{
-    padding-right: 30px;
-
+#nodeContainer{
+    display: grid;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-right: 30px; */
 }
 span{
     font-weight: bolder;
@@ -37,6 +40,7 @@ span{
 section {
     list-style: none;
     padding:10px;
+    padding-bottom: 10px;
     border: 2px solid rgba(23, 46, 48, 0.8);;
     margin-top: 10px;
     margin-left: 0px;    
@@ -55,9 +59,10 @@ section a{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-right: 10px;
     box-shadow: 1px 1px 3px rgb(99, 91, 91);
+    margin-bottom: 15px;
 }
 footer{
     font-size: smaller;
@@ -129,11 +134,12 @@ a:active{
         font-size: 0.8em;
     }
 }
-@media(min-width: 700px){
+@media(min-width: 650px){
     #nodeContainer{
         display: grid;
+        align-items: center;
         grid-gap: 8px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media(min-width: 850px){

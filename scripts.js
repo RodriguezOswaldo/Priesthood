@@ -27,49 +27,44 @@ function onLoad(){
         const title = speechBox[i].title;
         const speaker = speechBox[i].speaker;
         console.log(my_date);
-
         var node = document.getElementById("nodeContainer");
         var list = document.createElement("section");
         node.appendChild(list);
-
-        var firstNode = document.createElement("p");
+        var firstNode = document.createElement("h3");
         list.appendChild(firstNode);
         firstNode.textContent = my_date;
         list.appendChild(firstNode);
-
         var secondNode = document.createElement("a");
         secondNode.setAttribute('href', link);
         secondNode.setAttribute('target', "_blank");
-        secondNode.textContent = " | "+ title + " | " + speaker;
+        secondNode.textContent = " | "+ title + " | " ;
         list.appendChild(secondNode);
-    }
 
+        let thirdNode = document.createElement("p");
+        thirdNode.textContent = speaker;
+        list.appendChild(thirdNode);    }
+      //current date
+      var currentWeek = document.getElementById("currentWeek");
+
+      var currentDate = document.createElement("h3");
+      currentWeek.appendChild(currentDate);
+      currentDate.textContent = speechBox[4].my_date;
+
+      let currentSpeech = document.createElement("a");
+      currentSpeech.setAttribute('href', speechBox[4].link);
+      currentSpeech.setAttribute('target', "_blank");
+      currentSpeech.textContent = " | "+ speechBox[4].title + "  | ";
+      currentWeek.appendChild(currentSpeech);
+
+      let currentSpeaker = document.createElement("p");
+      currentSpeaker.textContent = speechBox[4].speaker;
+      currentWeek.appendChild(currentSpeaker);
+    //   list.appendChild(firstNode);
+
+    //   var secondNode = document.createElement("a");
+    //   secondNode.setAttribute('href', link);
+    //   secondNode.setAttribute('target', "_blank");
+    //   secondNode.textContent = " | "+ title + " | " + speaker;
+    //   list.appendChild(secondNode);
 }
 onLoad();
-
-// var myData =
-//                 `{
-//     "name":"Own",
-//     "favoriteNumber": 23,
-//     "isProgramer": true,
-//     "hobbies":["Reading", "Cooking", "Studying", "Coding"],
-// "familyMembers":[{
-//         "Wife":"Helena",
-//         "Son":"R2",
-//         "Mom":"Mauris",
-//         "Dad":"Oswaldo",
-//         "OldestBrother":"Leonard",
-//         "YoungestBrother":"Rafa"
-//     }],
-//     "favoriteMovies":[{
-//         "nameFir":"Star Wars Episode III",
-//         "titleFir":"The Revenge of the Sith",
-//         "nameSec":"Star Wars Episode IV",
-//         "titleSec": "A New Hope",
-//         "nameThird":"Star Wars",
-//         "titleThird":"Rogue One",
-//         "nameFourth":"Star Wars IV",
-//         "titleFourth":"The Return of the Jedi"
-//     }`
-
-//     console.log(myData);
