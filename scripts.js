@@ -42,6 +42,7 @@ function onLoad(){
 
         let thirdNode = document.createElement("p");
         thirdNode.textContent = speaker;
+        thirdNode.setAttribute('class', 'italic')
         list.appendChild(thirdNode);    }
       //current date
         var currentWeek = document.getElementById("currentWeek");
@@ -58,6 +59,8 @@ function onLoad(){
 
         let currentSpeaker = document.createElement("p");
         currentSpeaker.textContent = speechBox[4].speaker;
+        currentSpeaker.setAttribute('class', 'italic')
+
         currentWeek.appendChild(currentSpeaker);
 }
 onLoad();
