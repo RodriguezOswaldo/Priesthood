@@ -43,7 +43,8 @@ function onLoad(){
         let thirdNode = document.createElement("p");
         thirdNode.textContent = speaker;
         thirdNode.setAttribute('class', 'italic')
-        list.appendChild(thirdNode);    }
+        list.appendChild(thirdNode);   
+     }
       //current date
         var currentWeek = document.getElementById("currentWeek");
 
