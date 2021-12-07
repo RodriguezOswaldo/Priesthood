@@ -42,6 +42,13 @@ li a{
     text-align:justify;
     text-decoration: none;
 }
+.box{
+    background: gray;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+    box-shadow: 1px 1px 3px rgb(99, 91, 91);
+}
 footer{
     font-size: smaller;
     padding: 1px;
