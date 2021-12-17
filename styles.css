@@ -1,6 +1,6 @@
 :root{
     --mainColor:#459eb9bb;
-    --secondMain:#ecea65c9;
+    --secondMain: rgba(236, 225, 101, 0.63);
     --thirdMain: #ACD2ED;
 
     --mainColor2: #E1E289;
@@ -88,6 +88,12 @@ footer a {
     padding: 30px;
     /* box-shadow: 2px 2px 3px rgb(78, 71, 71); */
     margin-bottom: 20px;
+}
+img{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
 }
 h2{
     /* padding:20px;
