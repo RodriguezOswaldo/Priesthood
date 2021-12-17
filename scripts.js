@@ -48,7 +48,7 @@ const speechBox = [
         my_date: new Date(2021, 11, 26),
         link: "#",
         img: 'https://assets.ldscdn.org/24/52/24523a0a88cea3bc868dd813cef4cb20305573f8/three_kings_christmas_moyer.jpeg',
-        title: "No reunión de Quorum esta semana. Nos vemos el proximo año",
+        title: "No reunión de Quorum esta semana",
         speaker: "🎉 Feliz Fin de Año 🎉"
     },
     {
