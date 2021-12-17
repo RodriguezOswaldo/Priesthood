@@ -1,3 +1,11 @@
+
+//getting year
+var date = new Date();
+var n = date.getFullYear();
+console.log(n);
+console.log(new Date());
+var year = document.getElementById('year').innerHTML = n;
+
 //speechs content
 const speechBox = [
 
@@ -107,6 +115,7 @@ function onLoad() {
         //Creating container
         let node = document.getElementById("nodeContainer");
         let list = document.createElement("section");
+        list.className = "boxes";
         node.appendChild(list);
 
         let firstNode = document.createElement("h3");
