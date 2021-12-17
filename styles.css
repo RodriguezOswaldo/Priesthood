@@ -1,5 +1,14 @@
+:root{
+    --mainColor:#459eb9bb;
+    --secondMain:#ecea65c9;
+    --thirdMain: #ACD2ED;
+
+    --mainColor2: #E1E289;
+    --secondMain2:#99AA38;
+    --thirdMain2:#ACD2ED;
+}
 body {
-    background: #E1E289;
+    background:var(--thirdMain);
     margin: 0;
     padding:0;
     line-height: 1.5;
@@ -14,7 +23,7 @@ body {
     
 }
 .container{
-    background: #99AA38;
+    background:var(--mainColor);
     text-align:center;
     max-width: 90%;
     margin-left: auto;
@@ -45,7 +54,7 @@ section {
     margin-top: 10px;
     margin-left: 0px;    
     box-shadow: 1px 1px 3px rgb(99, 91, 91);
-    background-color: #E1E289;
+    background-color: var(--thirdMain);;
 }
 section a{
     font-size: 1em;
@@ -54,7 +63,7 @@ section a{
 
 }
 .box{
-    background: #ACD2ED;
+    background: var(--secondMain);;
     padding: 20px;
     text-align: center;
     margin-right: auto;
@@ -73,7 +82,7 @@ footer a {
     text-decoration: none;
 }
 .head{
-    background: #E1E289;
+    background: var(--thirdMain);;
     margin:0;
     padding-top: 20px;
     padding: 30px;

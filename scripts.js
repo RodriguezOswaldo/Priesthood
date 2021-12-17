@@ -1,66 +1,164 @@
-var date = new Date();
-var n = date.getFullYear();
-console.log(n); 
-console.log(new Date());
-var year = document.getElementById('year').innerHTML = n;
-
-
+//speechs content
 const speechBox = [
-    { my_date: 'Oct 10', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/22bednar?lang=spa", title: "Con el poder de Dios en gran gloria", speaker: "élder David A. Bednar"},
-    { my_date: 'Oct 24', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/12holland?lang=spa", title: "La mayor posesión", speaker: "élder Jeffrey R. Holland"},
-    { my_date: 'Nov 14', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/29stevenson?lang=eng", title: "Simplemente hermoso, hermosamente simple", speaker: "élder Gary E. Stevenson"},
-    { my_date: 'Nov 28', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/31ballard?lang=spa", title: "“¿Me amas más que estos?”", speaker: "Presidente M. Russell Ballard"},
-    { my_date: 'Dec 12', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/47nelson?lang=spa", title: "El templo y el cimiento espiritual de ustedes", speaker: "Presidente Russell M. Nelson"},
-    { my_date: 'Jan 09', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/42johnson?lang=spa", title: "Inviten a Cristo a ser el autor de su historia", speaker: "hermana Camille N. Johnson"},
-    { my_date: 'Jan 23', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=spa", title: "La paz personal en tiempos difíciles", speaker: "élder Quentin L. Cook"},    
-    { my_date: 'Feb 13', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/58andersen?lang=spa", title: "El nombre de la Iglesia no es negociable", speaker: "élder Neil L. Andersen"},
-    { my_date: 'Feb 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=spa", title: "La fe para pedir y entonces actuar", speaker: "Presidente Henry B. Eyring"},
-    { my_date: 'Mar 13', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=spa", title: "La dignidad no significa estar libre de mancha", speaker: "hermano Bradley R. Wilcox"},
-    { my_date: 'Mar 27', link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=spa", title: "La necesidad de una Iglesia", speaker: "Presidente Dallin H. Oaks"},
-    { my_date: 'Apr 3', link: "https://www.churchofjesuschrist.org/?lang=spa", title: "Conferencia General", speaker: "Autoridades Generales" },
-  ]
 
-function onLoad(){
+    {
+        my_date: new Date(2021, 9, 10),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/22bednar?lang=spa",
+        title: "Con el poder de Dios en gran gloria",
+        img :'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/0561dbaa-005f-43ba-883f-fef109462cf2/b4b0ec40-e490-450b-851e-a711ca9d48f4/1280x720/match/image.jpg',
+        speaker: "élder David A. Bednar"
+    },
+    {
+        my_date: new Date(2021, 9, 17),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/12holland?lang=spa",
+        title: "La mayor posesión",
+        img:"https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/f3b9e529-5409-4329-a916-04c3afe24dd8/dd668f9c-40ff-4b72-a8e9-d16785a36899/1280x720/match/image.jpg",
+        speaker: "élder Jeffrey R. Holland"
+    },
+    {
+        my_date: new Date(2021, 10, 14),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/29stevenson?lang=eng",
+        img:'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/c8254fb0-a97e-44d2-a305-5368e75baf5e/8954ad34-ddf2-442f-b82d-2a356eee4943/1280x720/match/image.jpg',
+        title: "Simplemente hermoso, hermosamente simple",
+        speaker: "élder Gary E. Stevenson"
+    },
+    {
+        my_date: new Date(2021, 10, 28),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/31ballard?lang=spa",
+        img: 'https://assets.ldscdn.org/98/de/98de9ded8d2ddadab1f889ee09556ac93af619f5/98de9ded8d2ddadab1f889ee09556ac93af619f5.jpeg',
+        title: "“¿Me amas más que estos?”",
+        speaker: "Presidente M. Russell Ballard"
+    },
+    {
+        my_date: new Date(2021, 11, 12),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/47nelson?lang=spa",
+        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/b0a9bfc5-33eb-43a9-88c3-3b88ebd74b09/53a550bc-d5a9-4122-b73a-20b49cd1ad0d/1280x720/match/image.jpg',
+        title: "El templo y el cimiento espiritual de ustedes",
+        speaker: "Presidente Russell M. Nelson"
+    },
+    {
+        my_date: new Date(2021, 11, 26),
+        link: "#",
+        img: 'https://assets.ldscdn.org/24/52/24523a0a88cea3bc868dd813cef4cb20305573f8/three_kings_christmas_moyer.jpeg',
+        title: "No reunión de Quorum esta semana. Nos vemos el proximo año",
+        speaker: "🎉 Feliz Fin de Año 🎉"
+    },
+    {
+        my_date: new Date(2022, 0, 9),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/42johnson?lang=spa",
+        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/b27fbd13-d403-47b4-9efe-7c8acb9d747e/e23607da-6088-4e1a-8c30-b289d215a88f/1280x720/match/image.jpg',
+        title: "Inviten a Cristo a ser el autor de su historia",
+        speaker: "hermana Camille N. Johnson"
+    },
+    {
+        my_date: new Date(2022, 1, 23),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=spa",
+        title: "La paz personal en tiempos difíciles",
+        img:'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/deb4169f-6d36-4c86-9808-210acb96584f/0363ee6f-52a0-4a18-ac65-d44ec014c565/1280x720/match/image.jpg',
+        speaker: "élder Quentin L. Cook"
+    },
+    {
+        my_date: new Date(2022, 1, 27),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=spa",
+        img:'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/12737690-d0c5-4060-8ecd-41a72ad84553/f0ee3800-31cc-4a34-a5c3-1e85e630e4df/1280x720/match/image.jpg',
+        title: "La fe para pedir y entonces actuar",
+        speaker: "Presidente Henry B. Eyring"
+    },
+    {
+        my_date: new Date(2022, 2, 13),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=spa",
+        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/d903b770-b990-44ef-93ef-8898f496b453/f0931799-8615-4490-847b-f65e65b7b80b/1280x720/match/image.jpg',
+        title: "La dignidad no significa estar libre de mancha",
+        speaker: "hermano Bradley R. Wilcox"
+    },
+    {
+        my_date: new Date(2022, 2, 27),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=spa",
+        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/669c90c3-680b-45b5-8bc8-34086d80dfa5/80e57966-bcde-4d9a-8c59-64c7821caf6c/1280x720/match/image.jpg',
+        title: "La necesidad de una Iglesia",
+        speaker: "Presidente Dallin H. Oaks"
+    },
+    {
+        my_date: new Date(2022, 3, 3),
+        link: "https://www.churchofjesuschrist.org/?lang=spa",
+        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/e88dad0a-a9ba-43fa-b0e4-18bd147fc764/ad692b43-ae6c-4e67-ac64-cb128b6660d8/1280x720/match/image.jpg',
+        title: "Conferencia General",
+        speaker: "Autoridades Generales"
+    },
+
+    // { my_date: 'Apr 3', link: "https://www.churchofjesuschrist.org/?lang=spa", title: "Conferencia General", speaker: "Autoridades Generales" },
+]
+
+function onLoad() {
+    //empty object xDDDD
+    let current = null;
+    speechBox.sort((current, next) => {
+        return current.my_date - next.my_date;
+    });
+    //getting the data
     for (let i = 0; i < speechBox.length; i++) {
         const my_date = speechBox[i].my_date;
         const link = speechBox[i].link;
+        const image = speechBox[i].img;
         const title = speechBox[i].title;
         const speaker = speechBox[i].speaker;
-        console.log(my_date);
-        var node = document.getElementById("nodeContainer");
-        var list = document.createElement("section");
+        //printing format
+        const format_date = `${moment(my_date).format('MMM')} ${moment(my_date).format('D')}, ${moment(my_date).format('Y')}`;
+        //Creating container
+        let node = document.getElementById("nodeContainer");
+        let list = document.createElement("section");
         node.appendChild(list);
-        var firstNode = document.createElement("h3");
+
+        let firstNode = document.createElement("h3");
         list.appendChild(firstNode);
-        firstNode.textContent = my_date;
+        firstNode.textContent = format_date;
         list.appendChild(firstNode);
-        var secondNode = document.createElement("a");
+
+        ///----- Image here ------/
+
+        let img = document.createElement("img")
+        img.setAttribute('src', image);
+        list.appendChild(img);
+
+        let secondNode = document.createElement("a");
         secondNode.setAttribute('href', link);
         secondNode.setAttribute('target', "_blank");
-        secondNode.textContent = " | "+ title + " | " ;
+        secondNode.textContent = " | " + title + " | ";
         list.appendChild(secondNode);
 
         let thirdNode = document.createElement("p");
         thirdNode.textContent = speaker;
         thirdNode.setAttribute('class', 'italic')
-        list.appendChild(thirdNode);   
-     }
-      //current date
-        var currentWeek = document.getElementById("currentWeek");
+        if (current === null && new Date() < my_date) {
+            current = speechBox[i];
+            current.date = format_date;
+            list.style.backgroundColor = '#fff';
+        }
 
-        var currentDate = document.createElement("h3");
-        currentWeek.appendChild(currentDate);
-        currentDate.textContent = speechBox[4].my_date;
+        list.appendChild(thirdNode);
 
-        let currentSpeech = document.createElement("a");
-        currentSpeech.setAttribute('href', speechBox[4].link);
-        currentSpeech.setAttribute('target', "_blank");
-        currentSpeech.textContent = " | "+ speechBox[4].title + "  | ";
-        currentWeek.appendChild(currentSpeech);
+    }
+    //creating current week
+    let currentWeek = document.getElementById("currentWeek");
 
-        let currentSpeaker = document.createElement("p");
-        currentSpeaker.textContent = speechBox[4].speaker;
-        currentSpeaker.setAttribute('class', 'italic')
-        currentWeek.appendChild(currentSpeaker);
+    let currentDate = document.createElement("h3");
+    currentWeek.appendChild(currentDate);
+    currentDate.textContent = current.date;
+
+    let currentImg = document.createElement("img")
+    currentImg.setAttribute('src', current.img);
+    currentWeek.appendChild(currentImg);
+
+    let currentSpeech = document.createElement("a");
+    currentSpeech.setAttribute('href', current.link);
+    currentSpeech.setAttribute('target', "_blank");
+    currentSpeech.textContent = " | " + current.title + "  | ";
+    currentWeek.appendChild(currentSpeech);
+
+    let currentSpeaker = document.createElement("p");
+    currentSpeaker.textContent = current.speaker;
+    currentSpeaker.setAttribute('class', 'italic')
+    currentWeek.appendChild(currentSpeaker);
 }
+
 onLoad();

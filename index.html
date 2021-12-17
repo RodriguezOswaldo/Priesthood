@@ -11,6 +11,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
         rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da773d',
+              }
+            }
+          }
+        }
+      </script>
     <title>Clases del Sacerdocio</title>
     <style>
 
@@ -19,8 +32,11 @@
 
 <body>
     <div class="container">
+        <nav class="navigation">
+
+        </nav>
         <div class="head">
-            <h2>Clases del Sacerdocio</h2>
+            <h2 class="text-3xl font-bold underline">Clases del Sacerdocio</h2>
         </div>
 
 
