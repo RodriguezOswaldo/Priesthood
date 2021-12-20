@@ -112,6 +112,7 @@ hr{
 }
 section:hover{
     transform:scale(1.1);
+    transition: transform 1s;
 }
 section:focus{
     transform:scale(1.1);
