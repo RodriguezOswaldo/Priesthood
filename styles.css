@@ -7,6 +7,9 @@
     --secondMain2:#99AA38;
     --thirdMain2:#ACD2ED;
 }
+*{
+    box-sizing: border-box;
+}
 body {
     background:var(--thirdMain);
     margin: 0;
@@ -20,6 +23,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Playfair Display', serif;
+    position: absolute;
     
 }
 .container{
@@ -28,11 +32,15 @@ body {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
-    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    /*padding-top: 20px;*/
     box-shadow: 1px 1px 3px rgb(99, 91, 91);
     padding-bottom: 20px;
+    position: relative;
+    top:4px;
 }
+
 #nodeContainer{
     display: grid;
     text-align: center;
@@ -84,12 +92,21 @@ footer a {
 .head{
     background: var(--thirdMain);;
     margin:0;
-    padding-top: 20px;
-    padding: 30px;
+    padding: 10px;
     margin-bottom: 20px;
-}
+    text-align: initial;
+    box-shadow: 3px 3px 3px 2px rgba(20, 20, 23, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+ }
 .boxes{
     border-radius: 12px;
+}
+#currentWeek{
+    position: relative;
+    margin-top: 40px;
+    top:10px;
 }
 img{
     width: 60%;
@@ -116,6 +133,9 @@ section:hover{
 }
 section:focus{
     transform:scale(1.1);
+}
+a{
+    cursor: pointer;
 }
 a:default{
     color: #acd3ed;
@@ -148,6 +168,9 @@ a:active{
     footer{
         font-size: 0.8em;
     }
+    .head{
+        font-size: 1.2rem;
+    }
 }
 @media(min-width: 650px){
     #nodeContainer{
@@ -162,5 +185,8 @@ a:active{
         display: grid;
         grid-gap: 8px;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .head{
+        font-size: 1.5rem;
     }
 }

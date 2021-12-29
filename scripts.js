@@ -168,6 +168,14 @@ function onLoad() {
     currentSpeaker.textContent = current.speaker;
     currentSpeaker.setAttribute('class', 'italic')
     currentWeek.appendChild(currentSpeaker);
+
+    // let click =  document.getElementById('click');
+    // //Let's create the event handler
+    // currentWeek.addEventListener("click", ()=>{
+    //     console.log('you clicked on the screen');
+    //     currentWeek.setAttribute('onclick',`location.href='${current.link}` )
+    //
+    // })
 }
 
 onLoad();
