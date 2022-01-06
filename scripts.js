@@ -59,25 +59,32 @@ const speechBox = [
         speaker: "hermana Camille N. Johnson"
     },
     {
-        my_date: new Date(2022, 1, 23),
+        my_date: new Date(2022, 0, 23),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=spa",
         title: "La paz personal en tiempos difíciles",
         img:'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/deb4169f-6d36-4c86-9808-210acb96584f/0363ee6f-52a0-4a18-ac65-d44ec014c565/1280x720/match/image.jpg',
         speaker: "élder Quentin L. Cook"
     },
     {
-        my_date: new Date(2022, 1, 27),
+        my_date: new Date(2022, 1, 13),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=spa",
         img:'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/12737690-d0c5-4060-8ecd-41a72ad84553/f0ee3800-31cc-4a34-a5c3-1e85e630e4df/1280x720/match/image.jpg',
         title: "La fe para pedir y entonces actuar",
         speaker: "Presidente Henry B. Eyring"
     },
     {
-        my_date: new Date(2022, 2, 13),
+        my_date: new Date(2022, 1, 27),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=spa",
         img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/d903b770-b990-44ef-93ef-8898f496b453/f0931799-8615-4490-847b-f65e65b7b80b/1280x720/match/image.jpg',
         title: "La dignidad no significa estar libre de mancha",
         speaker: "hermano Bradley R. Wilcox"
+    },
+    {
+        my_date: new Date(2022, 2, 13),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/41uchtdorf?lang=spa",
+        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/41d96063-dd20-4fca-b584-6e8df03f2f8c/67240ef0-6dfa-446b-879e-a306cbe2cabb/1280x720/match/image.jpg',
+        title: "La restauración diaria",
+        speaker: "élder Dieter F. Uchtdorf"
     },
     {
         my_date: new Date(2022, 2, 27),

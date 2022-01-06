@@ -135,11 +135,11 @@ section:focus{
 a{
     cursor: pointer;
 }
-a:default{
-    color: #acd3ed;
+a:link{
+    color: #0000FF;
 }
 a:visited{
-    color: brown;
+    color: #5e173a;
 }
 a:focus{
     color: orange;
