@@ -10,10 +10,10 @@ var year = document.getElementById('year').innerHTML = n;
 const speechBox = [
 
     {
-        my_date: new Date(2021, 9, 10),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/22bednar?lang=spa",
-        title: "Con el poder de Dios en gran gloria",
-        img :'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/0561dbaa-005f-43ba-883f-fef109462cf2/b4b0ec40-e490-450b-851e-a711ca9d48f4/1280x720/match/image.jpg',
+        my_date: new Date(2022, 4, 8),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2022/04/14bednar?lang=spa",
+        title: "“Pero no les hicimos caso”",
+        img :'https://assets.ldscdn.org/3ae9962a4b9604a4cc5d20360f5f15eda99f1bd6',
         speaker: "élder David A. Bednar"
     },
     {
@@ -183,6 +183,7 @@ function onLoad() {
     //     currentWeek.setAttribute('onclick',`location.href='${current.link}` )
     //
     // })
+    console.log(speechBox)
 }
 
 onLoad();
