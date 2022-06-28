@@ -75,7 +75,7 @@ const speechBox = [
     {
         my_date: new Date(2022, 9, 2),
         link: "https://www.churchofjesuschrist.org/?lang=spa",
-        img: 'https://www.churchofjesuschrist.org/bc/content/ldsorg/home-strata-live/2022/1-share-the-gospel-0aae4939d87511ec9688eeeeac1eb062cd518dad.jpg',
+        img: 'https://assets.ldscdn.org/fd7cc4be8be035ae5801f4904dad9d48c72b2b5e',
         title: "Conferencia General",
         speaker: "Autoridades Generales"
     },
