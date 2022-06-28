@@ -73,33 +73,27 @@ const speechBox = [
         speaker: "élder Ronald A. Rasband"
     },
     {
-        my_date: new Date(2022, 1, 27),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=spa",
-        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/d903b770-b990-44ef-93ef-8898f496b453/f0931799-8615-4490-847b-f65e65b7b80b/1280x720/match/image.jpg',
-        title: "La dignidad no significa estar libre de mancha",
-        speaker: "hermano Bradley R. Wilcox"
-    },
-    {
-        my_date: new Date(2022, 2, 13),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/41uchtdorf?lang=spa",
-        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/41d96063-dd20-4fca-b584-6e8df03f2f8c/67240ef0-6dfa-446b-879e-a306cbe2cabb/1280x720/match/image.jpg',
-        title: "La restauración diaria",
-        speaker: "élder Dieter F. Uchtdorf"
-    },
-    {
-        my_date: new Date(2022, 2, 27),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=spa",
-        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/669c90c3-680b-45b5-8bc8-34086d80dfa5/80e57966-bcde-4d9a-8c59-64c7821caf6c/1280x720/match/image.jpg',
-        title: "La necesidad de una Iglesia",
-        speaker: "Presidente Dallin H. Oaks"
-    },
-    {
-        my_date: new Date(2022, 3, 3),
+        my_date: new Date(2022, 9, 2),
         link: "https://www.churchofjesuschrist.org/?lang=spa",
-        img: 'https://cf-images.us-east-1.prod.boltdns.net/v1/static/1241706627001/e88dad0a-a9ba-43fa-b0e4-18bd147fc764/ad692b43-ae6c-4e67-ac64-cb128b6660d8/1280x720/match/image.jpg',
+        img: 'https://www.churchofjesuschrist.org/bc/content/ldsorg/home-strata-live/2022/1-share-the-gospel-0aae4939d87511ec9688eeeeac1eb062cd518dad.jpg',
         title: "Conferencia General",
         speaker: "Autoridades Generales"
     },
+    {
+        my_date: new Date(2022, 9, 9),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2022/04/47nelson?lang=spa",
+        img: 'https://assets.ldscdn.org/e28bb7f79a5d19151565a3563a85bd5533682eea',
+        title: "El poder del ímpetu espiritual",
+        speaker: "presidente Russell M. Nelson"
+    },
+    {
+        my_date: new Date(2022, 9, 23),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2022/04/51oaks?lang=spa",
+        img: 'https://assets.ldscdn.org/7818d5910f20601014039f0d4332cc280b0358ce',
+        title: "El amor divino en el plan del Padre",
+        speaker: "Presidente Dallin H. Oaks"
+    },
+
 
     // { my_date: 'Apr 3', link: "https://www.churchofjesuschrist.org/?lang=spa", title: "Conferencia General", speaker: "Autoridades Generales" },
 ]
