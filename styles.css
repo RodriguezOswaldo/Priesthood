@@ -110,8 +110,9 @@ img{
     width: 60%;
     text-align: center;
     margin: auto;
-    box-shadow: 2px 2px 2px 1px rgba(20, 20, 23, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(20, 20, 23, 0.5);
     margin: 10px auto;
+    border-radius: 7px;
 }
 h2{
     font-family: 'Playfair Display', serif;
