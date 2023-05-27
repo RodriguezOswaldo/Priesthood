@@ -17,16 +17,23 @@ const speechBox = [
         speaker: ""
     },
     {
+        my_date: new Date(2023, 3, 23),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/47nelson?lang=spa",
+        title: "“Se necesitan pacificadores”",
+        img: 'https://assets.churchofjesuschrist.org/b850b1897faef238fb5cd3df1c7185e8e8446319.jpeg',
+        speaker: "President Russell M. Nelson"
+    },
+    {
         my_date: new Date(2023, 4, 14),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/14gong?lang=eng",
         title: "“Ministrar”",
-        img: 'https://www.churchofjesuschrist.org/study/general-conference/2023/04/14gong?lang=eng',
+        img: 'https://assets.churchofjesuschrist.org/2d5348fa34243149e33050f92081cdf75eca00c5.jpeg',
         speaker: "élder Gerrit W. Gong"
     },
     {
         my_date: new Date(2023, 4, 28),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/12cordon?lang=eng",
-        title: "“Que te conozcan a Ti”",
+        title: "“Nunca dejen pasar la oportunidad de testificar de Cristo”",
         img: 'https://assets.churchofjesuschrist.org/6e088501c28eedf930a7c5d5cc6479c8b852871b.jpeg',
         speaker: "Sister Bonnie H. Cordon"
     },
