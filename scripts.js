@@ -167,7 +167,7 @@ function onLoad() {
         let secondNode = document.createElement("a");
         secondNode.setAttribute('href', link);
         secondNode.setAttribute('target', "_blank");
-        secondNode.textContent = " | " + title + " | ";
+        secondNode.textContent = title;
         list.appendChild(secondNode);
 
         let thirdNode = document.createElement("p");
@@ -196,7 +196,7 @@ function onLoad() {
     let currentSpeech = document.createElement("a");
     currentSpeech.setAttribute('href', current.link);
     currentSpeech.setAttribute('target', "_blank");
-    currentSpeech.textContent = " | " + current.title + "  | ";
+    currentSpeech.textContent = current.title;
     currentWeek.appendChild(currentSpeech);
 
     let currentSpeaker = document.createElement("p");
