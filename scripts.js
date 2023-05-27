@@ -17,11 +17,18 @@ const speechBox = [
         speaker: ""
     },
     {
-        my_date: new Date(2023, 5, 23),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2022/10/53schmitt?lang=spa",
+        my_date: new Date(2023, 4, 14),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/14gong?lang=eng",
+        title: "“Ministrar”",
+        img: 'https://www.churchofjesuschrist.org/study/general-conference/2023/04/14gong?lang=eng',
+        speaker: "élder Gerrit W. Gong"
+    },
+    {
+        my_date: new Date(2023, 4, 28),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/12cordon?lang=eng",
         title: "“Que te conozcan a Ti”",
-        img: 'https://assets.churchofjesuschrist.org/9acc4a289d6393b19130a290a75a10f72cc9664a.jpeg ',
-        speaker: "élder Jonathan S. Schmitt"
+        img: 'https://assets.churchofjesuschrist.org/6e088501c28eedf930a7c5d5cc6479c8b852871b.jpeg',
+        speaker: "Sister Bonnie H. Cordon"
     },
     {
         my_date: new Date(2023, 6, 14),
