@@ -87,7 +87,7 @@ section a {
     margin-left: auto;
     margin-left: 10px;
     margin-right: 10px;
-    box-shadow: 1px 1px 3px rgb(99, 91, 91);
+    box-shadow: 3px 3px 3px rgb(99, 91, 91);
     margin-bottom: 15px;
     border-radius: 12px;
 }
@@ -103,7 +103,6 @@ footer a {
 
 .head {
     background: var(--thirdMain);
-    ;
     margin: 0;
     padding: 10px;
     margin-bottom: 20px;
