@@ -1,6 +1,7 @@
 :root {
-    --mainColor: #459eb9bb;
-    --secondMain: rgba(236, 225, 101, 0.63);
+    --mainColor: #b5cdd4bb;
+    /* --secondMain: rgba(236, 225, 101, 0.63); */
+    --secondMain: #459eb9bb;
     --thirdMain: #ACD2ED;
     --mainColor2: #E1E289;
     --secondMain2: #99AA38;
