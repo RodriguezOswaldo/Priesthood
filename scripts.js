@@ -52,16 +52,16 @@ const speechBox = [
         speaker: " élder Joseph W. Sitati"
     },
     {
-        my_date: new Date(2023, 7, 11),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2022/04/23holland?lang=spa",
+        my_date: new Date(2023, 7, 13),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/33nattress?lang=spa",
         img: 'https://assets.churchofjesuschrist.org/ccf3f45774ffe1449f48ea50d3211c268a9feb11.jpeg',
-        title: "Felices y para siempre",
-        speaker: "élder Gerrit W. Gong"
+        title: "¿De verdad he sido perdonado?",
+        speaker: "élder K. Brett Nattress"
     },
     {
         my_date: new Date(2023, 7, 25),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2022/10/34silva?lang=spa",
-        img: 'https://assets.churchofjesuschrist.org/849860dd6985918a077b8309c15b0d378992df99.jpeg',
+        img: 'https://assets.churchofjesuschrist.org/c790b0abb831e74fc8f40d60dcbf8affab2ee352.jpeg',
         title: "Valentía para proclamar la verdad",
         speaker: "élder Denelson Silva"
     },
