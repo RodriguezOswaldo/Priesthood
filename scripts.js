@@ -75,7 +75,7 @@ const speechBox = [
     {
         my_date: new Date(2023, 8, 23),
         link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/17eyring?lang=eng",
-        img: 'https://assets.churchofjesuschrist.org/eb6e865a60734450cc769178ab3da519846cd8e8.jpeg',
+        img: 'https://assets.churchofjesuschrist.org/d543648c8f99990ba38bb77e6ed0a21cb4faa158.jpeg',
         title: "Encontrando Paz Personal",
         speaker: "President Henry B. Eyring"
     },
