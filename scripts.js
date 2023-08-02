@@ -59,11 +59,11 @@ const speechBox = [
         speaker: "élder K. Brett Nattress"
     },
     {
-        my_date: new Date(2023, 7, 25),
-        link: "https://www.churchofjesuschrist.org/study/general-conference/2022/10/34silva?lang=spa",
-        img: 'https://assets.churchofjesuschrist.org/c790b0abb831e74fc8f40d60dcbf8affab2ee352.jpeg',
-        title: "Valentía para proclamar la verdad",
-        speaker: "élder Denelson Silva"
+        my_date: new Date(2023, 7, 27),
+        link: "https://www.churchofjesuschrist.org/study/general-conference/2023/04/17eyring?lang=spa",
+        img: 'https://assets.churchofjesuschrist.org/eb6e865a60734450cc769178ab3da519846cd8e8.jpeg',
+        title: "Hallar paz personal",
+        speaker: "presidente Henry B. Eyring"
     },
     {
         my_date: new Date(2023, 8, 9),
